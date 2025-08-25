@@ -6,7 +6,7 @@ Aplicativo Android desenvolvido em **Kotlin + Jetpack Compose** para simular uma
 
 ## 📱 Tela Principal
 <p align="center">
-  <img src="docs/screenshot.png" width="300"/>
+  <img src="docs/Tela1" width="300"/>
 </p>
 
 ---
@@ -22,7 +22,7 @@ Aplicativo Android desenvolvido em **Kotlin + Jetpack Compose** para simular uma
 ## ▶️ Como Rodar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/MeuAppFaculdade.git
+   git clone https://github.com/JoaoVilaruel/MeuAppFaculdade.git
    ```
 2. Abra no **Android Studio**.
 3. Sincronize as dependências com o Gradle.
@@ -38,4 +38,4 @@ Aplicativo Android desenvolvido em **Kotlin + Jetpack Compose** para simular uma
 
 ---
 
-👨‍💻 Desenvolvido por [Seu Nome](https://github.com/SEU_USUARIO)
+👨‍💻 Desenvolvido por [JoaoVilaruel](https://github.com/JoaoVilaruel)
