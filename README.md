@@ -38,5 +38,5 @@ Aplicativo Android desenvolvido em **Kotlin + Jetpack Compose** para simular uma
 
 ---
 
-👨‍💻 Desenvolvido por [JoaoVilaruel](https://github.com/JoaoVilaruel) e Kaio Voitena
+👨‍💻 Desenvolvido por [JoaoVilaruel](https://github.com/JoaoVilaruel) e Caio Voitena
 
