@@ -2,7 +2,6 @@ package com.example.tela
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import androidx.activity.R
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.BorderStroke
@@ -10,7 +9,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -33,7 +31,6 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -52,7 +49,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextDirection.Companion.Content
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.tela.ui.theme.TelaTheme
@@ -127,7 +123,7 @@ fun Content(texto: String, onTextoChange: (String) -> Unit) {
 }
 @Composable
 fun UserHeader() {
-    Spacer(modifier = Modifier.height(5.dp))
+    Spacer(modifier = Modifier.height(10.dp))
     Row(
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically
@@ -169,7 +165,7 @@ fun CategoryRows() {
                 bloco2(
                     titulo = title,
                     color = Color.LightGray,
-                    altura = 50,
+                    altura = 60,
                     largura = 175,
                     textAlign = TextAlign.Center,
                     style = MaterialTheme.typography.titleMedium,
@@ -210,7 +206,6 @@ fun BottomBar() {
         }
     }
 }
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun bloco(
     titulo: String,
