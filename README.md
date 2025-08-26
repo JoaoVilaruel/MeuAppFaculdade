@@ -7,6 +7,7 @@ Aplicativo Android desenvolvido em **Kotlin + Jetpack Compose** para simular uma
 ## 📱 Tela Principal
 <p align="center">
   <img src="Docs/Img_Telas/Tela1.jpg" width="300"/>
+  <img src="Docs/Img_Telas/Tela2.jpg" width="300"/>
 </p>
 
 ---
